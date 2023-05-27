@@ -1,0 +1,115 @@
+.body{
+    display: grid;
+    grid-template-areas: "header" "hero" "main" "footer";
+    grid-template-rows: 10% 37% 38% 15%;
+}
+header{
+    display: grid;
+    grid-template-areas: "left" "nav";
+    grid-template-columns: 60% 40%;
+    background-color: #45484a;
+    align-items: center;
+    color: whitesmoke;
+}
+header h3{
+    margin-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 100px;
+    height: 75px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav li{
+    margin-right: 15px;
+}
+header a{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.person{
+     background-image: url("../images/corporate.jpg");
+    background-size: 2000px 450px;
+    color:white;
+    text-align: center;
+    background-repeat: no-repeat; 
+   
+    
+}
+
+.person h1{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+}
+.person article{
+        margin-top: 50px;
+}
+button{
+    background-color: gray;
+    padding: 5px;
+    border-color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+ .main{
+     display: grid;
+    grid-template-areas: "article1" "article2" "article3";
+    grid-template-columns: auto auto auto;
+    display: inline-flex;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      background-color: rgb(234, 229, 219);
+}
+.main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+article{
+    padding: 20px;
+    
+}
+article div{
+    border: 1px solid black;
+    box-shadow: 0 10px 10px 0 gray, 0 10px 10px 0 gray;
+}
+footer{
+    grid-template-areas: "footer1" "footer2" "footer3" "footer4" "footer5";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    display: inline-flex;
+    background-color: #26272b;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer ul{
+       list-style: none;
+       color: whitesmoke; 
+}
+.footer1{
+    width: 250px;
+}
+.footer1 h4{
+    width: fit-content;
+    color: wheat;
+}
+footer p{
+     color: wheat;
+     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+}
+.footer5 ul{
+    display: flex;
+    justify-items: center;
+}
+.footer5 li{
+    padding: 10px 10px;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    margin-left: 5px;
+}
